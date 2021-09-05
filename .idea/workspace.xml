@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6c9b9c6-546d-44e1-97f5-6cab1eebd79b" name="Default Changelist" comment="" />
+    <list default="true" id="d6c9b9c6-546d-44e1-97f5-6cab1eebd79b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/auth/auth.service_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/users/users.service_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/validations/validations.util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/users/dto/user.create.dto.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/users/dto/user.create.dto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/crud.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/validations/validations.util.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/validations/validations.util.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +46,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1pAws4mYwQQ2nLdbn4hFtByrsky" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +83,7 @@
       <recent name="D:\projects\go\crud\core\users\entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.dev">
+  <component name="RunManager" selected="Go Test.TestParseBody/Any in crud/utils/parse_body">
     <configuration name="App Engine" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="crud" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,6 +101,83 @@
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="crud" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseBody in crud/utils/parse_body" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <working_directory value="$PROJECT_DIR$/utils/parse_body" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="crud/utils/parse_body" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestParseBody\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseBody/Any in crud/utils/parse_body" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <working_directory value="$PROJECT_DIR$/utils/parse_body" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="crud/utils/parse_body" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestParseBody\E$/^\QAny\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestValidate in crud/utils/validations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <working_directory value="$PROJECT_DIR$/utils/validations" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="crud/utils/validations" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestValidate\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestValidate/Not_have_a_property in crud/utils/validations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <working_directory value="$PROJECT_DIR$/utils/validations" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="crud/utils/validations" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestValidate\E$/^\QNot_have_a_property\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestValidate/Success in crud/utils/validations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <working_directory value="$PROJECT_DIR$/utils/validations" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="crud/utils/validations" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestValidate\E$/^\QSuccess\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="crud" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="dev" type="ShConfigurationType">
@@ -136,9 +228,23 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.App Engine" />
+      <item itemvalue="Go Test.TestValidate/Success in crud/utils/validations" />
+      <item itemvalue="Go Test.TestValidate/Not_have_a_property in crud/utils/validations" />
+      <item itemvalue="Go Test.TestValidate in crud/utils/validations" />
+      <item itemvalue="Go Test.TestParseBody in crud/utils/parse_body" />
+      <item itemvalue="Go Test.TestParseBody/Any in crud/utils/parse_body" />
       <item itemvalue="Shell Script.dev" />
       <item itemvalue="Shell Script.swagger" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestParseBody/Any in crud/utils/parse_body" />
+        <item itemvalue="Go Test.TestParseBody in crud/utils/parse_body" />
+        <item itemvalue="Go Test.TestValidate/Not_have_a_property in crud/utils/validations" />
+        <item itemvalue="Go Test.TestValidate in crud/utils/validations" />
+        <item itemvalue="Go Test.TestValidate/Success in crud/utils/validations" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +253,29 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crud$TestValidate_in_crud_utils_validations.out" NAME="TestValidate in crud/utils/validations Coverage Results" MODIFIED="1630031214558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/crud$go_test_crud_utils_parse_body.out" NAME="go test crud/utils/parse_body Coverage Results" MODIFIED="1630028602438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/crud$go_test_crud_utils_validations.out" NAME="go test crud/utils/validations Coverage Results" MODIFIED="1630028355278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/crud$TestValidate_NotHaveAProperty_in_crud_utils_validations.out" NAME="TestValidate/NotHaveAProperty in crud/utils/validations Coverage Results" MODIFIED="1630030526441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/crud$TestValidate_Not_have_a_property_in_crud_utils_validations.out" NAME="TestValidate/Not_have_a_property in crud/utils/validations Coverage Results" MODIFIED="1630031316664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/crud$TestValidate_Success_in_crud_utils_validations.out" NAME="TestValidate/Success in crud/utils/validations Coverage Results" MODIFIED="1630031147409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/crud$TestParseBody_Any_in_crud_utils_parse_body.out" NAME="TestParseBody/Any in crud/utils/parse_body Coverage Results" MODIFIED="1630031721425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/crud$TestParseBody_in_crud_utils_parse_body.out" NAME="TestParseBody in crud/utils/parse_body Coverage Results" MODIFIED="1630031710091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

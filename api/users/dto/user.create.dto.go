@@ -6,12 +6,12 @@ import (
 
 type UserCreateDto struct {
 	Name           string `validate:"required" example:"Benito" json:"name"`
-	LastName       string `example:"Rosas" json:"lastName"`
-	Email          string `example:"example@gmail.com" json:"email"`
-	Password       string `example:"sadsadasdas" json:"password"`
-	SecondLastName string `example:"Perez" json:"secondLastName"`
-	Photo          string `example:"http://ddsfdsf.cpom/dsfsdf.jpg" json:"Photo"`
-	RolId          int    `example:"1" json:"rolId"`
+	LastName       string `validate:"required" example:"Rosas" json:"lastName"`
+	Email          string `validate:"required" example:"example@gmail.com" json:"email"`
+	Password       string `validate:"required" example:"sadsadasdas" json:"password"`
+	SecondLastName string `validate:"required" example:"Perez" json:"secondLastName"`
+	Photo          string `validate:"required" example:"http://ddsfdsf.cpom/dsfsdf.jpg" json:"Photo"`
+	RolId          int    `validate:"required" example:"1" json:"rolId"`
 }
 
 func (d UserCreateDto) ToEntity() entities.User {

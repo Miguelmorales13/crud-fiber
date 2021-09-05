@@ -13,6 +13,7 @@ require (
 	github.com/go-playground/validator/v10 v10.8.0
 	github.com/gofiber/fiber/v2 v2.16.0
 	github.com/gofiber/template v1.6.14 // indirect
+	github.com/golang/mock v1.6.0 // indirect
 	github.com/joho/godotenv v1.3.0
 	github.com/klauspost/compress v1.13.3 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
